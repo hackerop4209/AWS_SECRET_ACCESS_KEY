@@ -55,8 +55,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ https://github.com/hackerop4209/AWS_SECRET_ACCESS_KEY --token AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A }}
-        aws-secret-access-key: ${{ https://github.com/hackerop4209/AWS_SECRET_ACCESS_KEY --token AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A }}
+        aws-access-key-id: ${{ AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A }}
+        aws-secret-access-key: ${{ AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A }}
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Login to Amazon ECR
