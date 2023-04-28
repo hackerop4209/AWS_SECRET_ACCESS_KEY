@@ -56,7 +56,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${ {NGROK_AUTH_TOKEN }}
-        aws-secret-access-key: ${{ AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A }}
+        aws-secret-access-key: ${{ arn:aws:iam::AUOZJM4ZEYEHZ4MD7KMQFI3EJMS6A:role/my-github-actions-role }}
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Login to Amazon ECR
